@@ -14,9 +14,9 @@ Edit `src/index.ts`:
 - Specify the bot access token (I assume it is a private one, so that you can copy it from DPW).
 - Specify the WebHook address
 - Specify the event filters, you may want to specify one or more of the following:
-    - /restapi/v1.0/glip/posts
-    - /restapi/v1.0/glip/groups
-    - /restapi/v1.0/account/~/extension/~
+    - `/restapi/v1.0/glip/posts`
+    - `/restapi/v1.0/glip/groups`
+    - `/restapi/v1.0/account/~/extension/~`
 
 
 ## Run it
