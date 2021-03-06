@@ -12,7 +12,11 @@ const rc = new RingCentral({
     .restapi()
     .subscription()
     .post({
-      eventFilters: ['/restapi/v1.0/glip/posts'],
+      eventFilters: [
+        '/restapi/v1.0/glip/posts',
+        '/restapi/v1.0/glip/groups',
+        '/restapi/v1.0/account/~/extension/~',
+      ],
       deliveryMode: {
         transportType: 'WebHook',
         address: 'https://you-webhook-address',

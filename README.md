@@ -9,10 +9,9 @@ If for some reason the Bot WebHook tab doesn't work for you, you can use this pr
 yarn install
 ```
 
-Edit `src/index.ts`:
+Rename `.env.sample` to `.env`, and specify credentials.
 
-- Specify the bot access token (I assume it is a private one, so that you can copy it from DPW).
-- Specify the WebHook address
+Edit `src/index.ts`:
 - Specify the event filters, you may want to specify one or more of the following:
     - `/restapi/v1.0/glip/posts`
     - `/restapi/v1.0/glip/groups`
